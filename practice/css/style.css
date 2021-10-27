@@ -1,0 +1,524 @@
+body{
+  font: 16px;
+
+}
+/* =====================
+common css start
+===================== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.clr{
+  clear: both;
+}
+
+img{
+  vertical-align: middle;
+}
+.full-wrapper{
+  width: 100%;
+}
+.container{
+  width: 940px;
+  margin: 0 auto; 
+}
+
+/* =====================
+common css ends
+===================== */
+
+
+
+
+/* =======================
+dropdown manu css start
+======================= */
+.manu-bg{
+  width: 100%;
+  height: 750px;
+  background: linear-gradient(to right,rgba(11, 7, 245, 0.5) 30%, rgba(152, 3, 238, 0.5) 100%), url(../images/webbg3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.manu-bg .manu-content{
+  width: 1200px;
+  height: 70px;
+  background: rgba(7, 7, 7, 0.37);
+  margin: 0 auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.manu-bg .manu-content .main-manu li{
+  float: left;
+  position: relative;
+}
+.manu-bg .manu-content .main-manu li a{
+  text-transform: capitalize;
+  line-height: 70px;
+  padding: 0 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: block;
+  transition: all linear .8s;
+  -webkit-transition: all linear .8s;
+  -moz-transition: all linear .8s;
+  -ms-transition: all linear .8s;
+  -o-transition: all linear .8s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.manu-bg .manu-content .main-manu .active{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.manu-bg .manu-content .main-manu .active,li:hover > a{
+  background-color: #00ffff;
+
+
+}
+
+/* ================
+sub-manu
+================= */
+
+.manu-bg .manu-content .main-manu li .sub-manu{
+  position: absolute;
+  background-color: rgba(3, 117, 28, 0.5);
+  top: 150px;
+  left: 0;
+  transition: all linear .4s;
+  -webkit-transition: all linear .4s;
+  -moz-transition: all linear .4s;
+  -ms-transition: all linear .4s;
+  -o-transition: all linear .4s;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.manu-bg .manu-content .main-manu li:hover > .sub-manu{
+  top: 70px;
+  visibility: visible;
+  opacity: 1;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li{
+  float: none;
+  border-bottom: 2px dotted #fff;
+  position: relative;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li:last-child{
+  border-bottom: none;
+}
+
+
+
+.manu-bg .manu-content .main-manu li .sub-manu li a{
+  white-space: nowrap;
+  transition: all linear .8s;
+  -webkit-transition: all linear .8s;
+  -moz-transition: all linear .8s;
+  -ms-transition: all linear .8s;
+  -o-transition: all linear .8s;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li a:last-child {
+  border-bottom: none;
+}
+
+.manu-bg .manu-content .main-manu li .sub-manu li:hover > a{
+  background-color: #ff0000;
+}
+
+
+/* ================
+sub-manu
+================= */
+/* ================
+sub-manu2 start
+================= */
+.manu-bg .manu-content .main-manu li .sub-manu li .side-manu{
+  position: absolute;
+  top: 70px;
+  left: 100%;
+  background-color: rgba(217, 128, 250, 0.459);
+  visibility: hidden;
+  opacity: 0;
+  transition: all linear .6s;
+  -webkit-transition: all linear .6s;
+  -moz-transition: all linear .6s;
+  -ms-transition: all linear .6s;
+  -o-transition: all linear .6s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li:hover > .side-manu {
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li:hover > .side-manu li{
+  border-bottom: 2px dotted #222;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li:hover > .side-manu li:last-child{
+  border-bottom: none;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li .side-manu li a{
+  color: #000000;
+  transition: all linear .8s;
+  -webkit-transition: all linear .8s;
+  -moz-transition: all linear .8s;
+  -ms-transition: all linear .8s;
+  -o-transition: all linear .8s;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li .side-manu li:hover > a{
+  background-color: #ff00f2;
+  color: #fff;
+}
+.manu-bg .manu-content .main-manu li .sub-manu li .side-manu1{
+  background-color: rgba(229, 245, 10, 0.493);
+}
+.manu-bg .manu-content .main-manu li .sub-manu li .side-manu2{
+  background-color: rgba(0, 148, 49, 0.493);
+}
+/* ================
+sub-manu2 ends
+================= */
+/* ==================
+megha manu css start
+================== */
+.manu-bg .manu-content .main-manu li .megha-manu{
+  width: 1200px;
+  height: 400px;
+  background-color: rgba(0, 148, 49, 0.493);
+  position: absolute;
+  top: 150px;
+  left: -350px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all linear .6s;
+  -webkit-transition: all linear .6s;
+  -moz-transition: all linear .6s;
+  -ms-transition: all linear .6s;
+  -o-transition: all linear .6s;
+}
+.manu-bg .manu-content .main-manu li:hover > .megha-manu{
+  visibility: visible;
+  opacity: 1;
+  top: 70px;
+}
+.manu-bg .manu-content .main-manu li .megha-manu .megha-content{
+  width: 1200px;
+  height: 200px;
+
+}
+
+.manu-bg .manu-content .main-manu li .megha-manu .megha-content .meghacontent-child{
+  width: 300px;
+  height: 200px;
+  border: 2px solid rgba(255, 51, 0, 0.993);
+  float: left;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+
+
+
+/* =================
+megha manu css ends
+================= */
+/* ====================
+dropdown manu css ends
+==================== */
+
+
+/* ====================
+positioning css start
+==================== */
+.about-image{
+  width: 500px;
+  height: 500px;
+  border: 2px solid #000;
+  margin: 100px auto;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+
+}
+.about-image img{
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.about-image .social-icon{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+}
+.about-image .fb{
+  background: rgba(51, 51, 240, 0.945);
+  top: 390px;
+  left: -30px;
+}
+.about-image .twetter{
+  background: rgba(45, 240, 197, 0.945);
+  top: 475px;
+  left: 65px;
+}
+.about-image .linked-in{
+  background: rgba(2, 2, 41, 0.945);
+  top: 512px;
+  left: 209px;
+}
+.about-image .pinterest{
+  background: rgba(253, 4, 4, 0.945);
+  top: 476px;
+  left: 358px;
+}
+.about-image .hans{
+  background: rgba(116, 245, 10, 0.945);
+  top: 378px;
+  left: 465px;
+}
+
+.box-main{
+  width: 500px;
+  height: 250px;
+  background: rgb(160, 160, 160);
+  margin: 100px auto;
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.box-main img{
+  width: 100px;
+  border: 2px solid rgb(160, 154, 154);
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.box-main p{
+  padding: 90px 0 20px 20px;
+  z-index: -1;
+}
+.box-main .squar{
+  width: 40px;
+  height: 40px;
+  background: rgb(160, 154, 154);
+  position: absolute;
+  right: -20px;
+  top: 105px;
+  transform: ;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+  z-index: -1;
+
+}
+/* ====================
+positioning css ends
+==================== */
+/* ==========================
+positioning overlay css start
+========================== */
+.mr-30{
+  margin-right: 30px;
+}
+
+
+
+.team{
+  width: 100%;
+  height: 600px;
+  background: #959797f1;
+}
+.team .team-content{
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+}
+.team .team-content .team-member img{
+  width: 380px;
+  height: 600px;
+}
+.team .team-content .team-member{
+  width: 380px;
+  height: 600px;
+  float: left;
+  position: relative;
+
+}
+.team .team-content .team-member .overlay{
+  width: 100%;
+  height: 0%;
+  background: rgba(0, 0, 0 ,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all linear .4s;
+  -webkit-transition: all linear .4s;
+  -moz-transition: all linear .4s;
+  -ms-transition: all linear .4s;
+  -o-transition: all linear .4s;
+}
+.team .team-content .team-member:hover .overlay{
+  height: 100%;
+}
+
+.team .team-content .team-member:hover .overlay .icon{
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+}
+
+
+/* ==========================
+positioning overlay css ends
+=========================== */
+
+/* ====================
+positioning css start
+==================== */
+.main-box{
+  width: 600px;
+  height: 600px;
+  border: 2px solid #00ffff;
+  margin:100px auto;
+  position: relative;
+}
+.main-box .child{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+.main-box .child1{
+  background: #FFC312;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.main-box .child2{
+  background: rgba(18, 137, 167,.7);
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  z-index: 1;
+
+}
+
+.main-box .child3{
+  background: #D980FA;
+  position: absolute;
+  top: 200px;
+  right: 200px;
+
+}
+
+/* ====================
+positioning css ends
+==================== */
+
+
+
+
+
+
+.cardland{
+  width: 100%;
+  height: 700px;
+  background: pink;
+}
+.card-content{
+  width: 1200px;
+  height: 600px;
+  background:#34e7e4;
+  margin: 200px auto;
+  position: relative;
+}
+.cardland .card-content .first-card{
+  width: 350px;
+  height: 500px;
+  background: #a4b0be;
+  border-radius: 10px; 
+  position:absolute;
+
+}
+/* ===============
+psd to html start
+================ */
+.header-bg{
+  width: 100%;
+  height: 32px;
+  color: #0872b9;
+  margin-top: 50px;
+}
+
+/* ============
+psd to html end
+============= */

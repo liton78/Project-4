@@ -1,0 +1,236 @@
+body{
+    font: 16px Arial, Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.headline h1{
+    text-align: center;
+    color: #fcf8f8;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.headline{  
+    width: 800px;
+    margin: auto;
+    background: linear-gradient(to right,#a309fc7a 20%,#2b07f7b0 100%), url(../images/beauty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 50px;
+    border: 3px solid aqua;
+}
+/* first row start */
+
+/* first row  first col */
+
+.main-a{
+    width: 1200px;
+    height: 300px;
+    background: #d400ff;
+    margin-top: 30px;
+}
+/* first row  first col end */
+
+/* first row  second col */
+
+.main-a-e{
+    width: 350px;
+    height: 300px;
+    background: linear-gradient( to left, #cdfa07 20%,#1cf009 100%);
+    float: left;
+}
+/* first row  second col */
+
+
+/* first row  second col first row */
+.main-a-f{
+    width: 500px;
+    height: 300px;
+    background: #fa4b06;
+    float: left;
+}
+/* first row  second col first row */
+.main-af-h{
+    width: 500px;
+    height: 150px;
+    background: #0c0cf7;
+}
+.main-af-i{
+    width: 500px;
+    height: 150px;
+    background: #00fa9a;
+}
+.main-afi-j{
+    width: 250px;
+    height: 150px;
+    background: #f51008;
+    float: left;
+}
+.main-afi-k{
+    width: 250px;
+    height: 150px;
+    background: lightcoral;
+    float: left;
+}
+.main-ag{
+    width: 350px;
+    height: 300px;
+    background: #faf607;
+    float: left;
+}
+/* first row end */
+
+/* second row start */
+.main-b{
+    width: 1200px;
+    height: 300px;
+    background: #00ff00;
+}
+.main-ba{
+    width: 600px;
+    height: 300px;
+    background: #ff00ff;
+    float: left;
+}
+.main-bab{
+  width: 600px;
+  height: 100px;
+  background: linear-gradient( to right, #ff00b3, #090df7) ;  
+}
+.main-bac{
+    width: 600px;
+    height: 100px;
+    background: #a7092b;
+}
+.main-bad{
+    width: 600px;
+    height: 100px;
+    background: #f8a407;
+}
+
+
+.main-bc{
+    width: 600px;
+    height: 300px;
+    background: #025555;
+    float: left;
+}
+.main-bca{
+    width: 600px;
+    height: 150px;
+    background: linear-gradient( to right, #fc0202,#06a31bf3) ;
+}
+.main-bcb{
+    width: 600px;
+    height: 150px;
+    background: fuchsia;
+}
+.main-bcb-a{
+    width: 300px;
+    height: 150px;
+    background: #790556;
+    float: left;
+}
+.main-bcb-b{
+    width: 300px;
+    height: 150px;
+    background: palegreen;
+    float: left;
+}
+.main-c{
+    width: 1200px;
+    height: 300px;
+    background: #391cf7;
+}
+.main-ca{
+    width: 200px;
+    height: 300px;
+    background: #f80707;
+    float: left;
+}
+.main-cb{
+    width: 250px;
+    height: 300px;
+    background: #00fa9a;
+    float: left;
+}
+.main-cc{
+    width: 300px;
+    height: 300px;
+    background: #ff00ff;
+    float: left;
+}
+.main-cd{
+    width: 300px;
+    height: 300px;
+    background: #faf607;
+    float: left;
+}
+.main-ce{
+    width: 150px;
+    height: 300px;
+    background: #00ff00;
+    float: left;
+}
+
+/* fourth row start */
+
+.main-d{
+    width: 1200px;
+    height: 300px;
+    background: #0c0cf7;
+}
+.main-da{
+    width: 350px;
+    height: 300px;
+    background: #7cfa07;
+    float: left
+}
+.main-db{
+    width: 500px;
+    height: 300px;
+    background: #0759f3;
+    float: left;
+}
+.main-db-a{
+    width: 500px;
+    height: 150px;
+    background: linear-gradient( to right, #0509f0, #fc0404) #920b06;
+}
+.main-db-b{
+    width: 500px;
+    height: 150px;
+    background: #ff00ff;
+}
+.main-db-b-a{
+    width: 250px;
+    height: 150px;
+    background: #391cf7;
+    float: left;
+}
+.main-db-b-b{
+    width: 250px;
+    height: 150px;
+    background: #d400ff;
+    float: left;
+}
+
+.main-dc{
+    width: 350px;
+    height: 300px;
+    background: #ff3705;
+    float: left;
+}

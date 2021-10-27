@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+}
+.clr{
+	clear: both;
+}
+.full-wrapper{
+	width: 100%;
+}
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+/* =============
+	common css
+=============== */
+/* ====================
+	font import in css
+==================== */
+@font-face {
+	font-family: open-sans;
+	src: url(../webfonts/open_sans/opensans-regular.ttf);
+}
+/* ===================
+	font import in css
+==================== */
+
+
+/* =====================
+	header-bg css start
+====================== */
+.header-bg{
+	background: #0872b9;
+	height: 32px;
+}
+
+.header{
+	height: 32px;
+}
+.header-bg .header p{
+	float: left;
+	color: #e7e7e7;
+	font-size: 14px;
+	line-height: 32px;
+	font-family: open-sans;
+	text-transform: capitalize;
+
+}
+.header-bg .header ul{
+	float: right;
+}
+.header-bg .header ul li{
+	float: left;
+}
+.header-bg .header ul li a i{
+	color: #e7e7e7;
+	font-size: 14px;
+	margin-left: 24px;
+	line-height: 32px;
+	transition: all linear .6s;
+}
+.header-bg .header ul li a i:hover{
+	color: #353535;
+}
+
+/* =====================
+	header-bg css ends
+====================== */
+
+/* =====================
+	header-bg css ends
+====================== */
+.manu-bg{
+	height: 80px;
+
+}
+.manu-bg .manu{
+	height: 80px;
+}
+.manu-bg .manu .manu-logo{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.manu-bg .manu .manu-logo img{
+	/* width: 100%; */
+	line-height: 80px;
+	padding-top: 20px;
+}
+.manu-bg .manu .manu-list{
+	width: 860px;
+	height: 80px;
+	float: left;
+}
+.manu-bg .manu .manu-list ul{
+	float: right;
+}
+.manu-bg .manu .manu-list ul li{
+	float: left;
+}
+.manu-bg .manu .manu-list ul li a{
+	color: #353535;
+	padding-left: 15px;
+	line-height: 80px;
+	font-size: 14px;
+	font-family: open-sans;
+	text-transform: capitalize;
+	transition: all linear .6s;
+	-webkit-transition: all linear .6s;
+	-moz-transition: all linear .6s;
+	-ms-transition: all linear .6s;
+	-o-transition: all linear .6s;
+}
+.manu-bg .manu .manu-list ul li a:hover{
+	color: #0872b9;
+}
+
+/* =====================
+	header-bg css ends
+====================== */

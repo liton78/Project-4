@@ -1,0 +1,92 @@
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-33 {
+    margin-left: 33px;
+}
+
+#get-in-touch {
+    height: 505px;
+    margin-bottom: 100px;
+}
+
+#get-in-touch .login-form {
+    height: 392px;
+    margin-top: 52px;
+}
+
+#get-in-touch .login-form .form-design {
+    height: 392px;
+    padding-top: -7px;
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(3, 3, 3, 0.603);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+#get-in-touch .login-form .form-design .form-legend {
+    color: #0dfa04;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-family: var(--sub-font);
+    text-shadow: 1px 4px 5px #f50929;
+}
+
+#get-in-touch .login-form .form-design form input {
+    width: 345px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #353535;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(3, 3, 3, 0.603);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-left: 20px;
+}
+
+#get-in-touch .login-form .form-design .messages {
+    resize: none;
+    width: 1102px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 33px;
+    border: 1px solid #353535;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(3, 3, 3, 0.603);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#get-in-touch .login-form .form-design .button-send {
+    width: 245px;
+    height: 40px;
+    margin-left: 33px;
+    margin-top: 20px;
+}
+
+#get-in-touch .login-form .form-design form ::placeholder {
+    color: rgb(250, 3, 3);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--sub-font);
+    text-transform: capitalize;
+
+}
+
+::placeholder{
+    padding-left: 15;
+}
+

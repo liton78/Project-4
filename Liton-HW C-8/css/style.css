@@ -1,0 +1,158 @@
+/* ==========================
+common css
+========================== */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.clr{
+	clear: both;
+}
+
+/* ==========================
+common css
+========================== */
+.main{
+	width: 1200px;
+	margin: auto;
+}
+.content{
+	width: 1200px;
+	height: 80px;
+	text-align: center;
+	margin: 10px auto;
+	background-color: darkviolet;
+}
+h1{
+	width: 400px;
+	height: 50px;
+	background-color: aqua;
+	margin: 10px auto;
+	display: inline-block;
+	border-radius: 25px;
+	padding: 5px;
+}
+/* ========
+box-1 start
+======== */
+.box-1{
+	width: 600px;
+	height: 200px;
+	background-color: #67caf1;
+	
+	float: left;
+	margin-top: 10px;
+}
+.box-1 .b-1chiled-1{
+	width: 290px;
+	height: 190px;
+	background-color: #f5120a;
+	float: left;
+	border: 5px dashed #facc01;
+}
+.chiled1-qtt{
+	width: 130px;
+	background-color: #518b5057;
+	color:#FFFFFF;
+	font-size: 20px;
+	margin: auto;
+	margin-top: 75px;
+	padding: 8px 8px 8px 20px;
+}
+
+.box-1 .b-1chiled-2{
+	width: 290px;
+	height: 190px;
+	background-color: #39f50a;
+	float: left;
+	border: 5px dashed ;
+}
+.chiled2-qtt{
+	width: 130px;
+	background-color: #912cf046;
+	color: cornsilk;
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+	margin-top: 75px;
+	padding: 8px;
+
+
+}
+/* =======
+box-1 end
+=========*/
+/* =======
+box-2 start
+=========*/
+
+.box-2{
+	width: 600px;
+	height: 200px;
+	background-color: #b3f17f;
+	float: left;
+	margin-top: 10px;
+}
+
+.box-2 .b-2chiled-1{
+	width: 290px;
+	height: 190px;
+	background-color: aqua;
+	border: 5px dashed #facc01;
+	float: left;
+	
+}
+.box-2.chiled2-qtt{
+	width: 130px;
+	background-color: #912cf046;
+	color: cornsilk;
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+	margin-top: 75px;
+	padding: 8px;
+
+
+}
+.box-2 .b-2chiled-2{
+	width: 290px;
+	height: 190px;
+	background-color: #0400ff;
+	border: 5px dashed #f5120a;
+	float: left;
+	
+}
+.box-2.chiled2-qtt{
+	width: 130px;
+	background-color: #912cf046;
+	color: cornsilk;
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+	margin-top: 75px;
+	padding: 8px;
+
+
+}
+
+
+
+
+/* =========
+box-2 end
+========== */
+
+.box-3{
+	width: 1190px;
+	height: 200px;
+	background-color: #772d2d;
+	border: 5px dashed;
+	margin-top: 5px;
+}
+.box-4{
+	width: 1190px;
+	height: 200px;
+	background-color: #a737f1;
+	border: 5px dashed #03f8c3;
+	margin: 5px 0px 10px 0px;

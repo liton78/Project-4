@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/* =====================
+    common css end
+========================*/
+
+.login-form{
+    width: 1120px;
+    height: 510px;
+    margin: 100px auto;
+}
+
+.form-design{
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid #353535;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.form-legend{
+    color: #fa4b06;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 6px #353535;
+}
+
+form .form-in{
+    width: 300px;
+    height: 50px;
+    outline: none;
+    background: none;
+    margin-top: 30px;
+    margin-left: 47px;
+    border: 1px solid #353535;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.form-place {
+    padding-left: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.form-text{
+    resize: none;
+    width: 1000px;
+    height: 250px;
+    outline: none;
+    background: none;
+    padding-top: 15px;
+    margin-top: 30px;
+    margin-left: 47px;
+    font-size: 14px;
+    border: 1px solid #353535;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.login-button{
+    color: #353535;
+    width: 250px;
+    height: 50px;
+    background: none;
+    margin-top: 30px;
+    margin-left: 47px;
+    border: 1px solid #353535;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

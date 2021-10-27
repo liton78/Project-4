@@ -1,0 +1,214 @@
+:root{
+    --mainfont: 'Raleway',sans-serif;
+    --subfont: 'Open Sans',sans-serif;
+    --portfont: 'Cardo',serif;
+    --bannovercol: rgba(43, 46, 74, 0.95);
+    --brandcol: #e84545;
+    --hcol: #2d3033;
+    --pcol: #6c7279;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ============
+common css end
+============= */
+
+.text-up{
+    text-transform: uppercase;
+}
+
+.text-cp{
+    text-transform: capitalize;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.rale-bold{
+    font-family: var(--mainfont);
+    font-weight: 700;
+}
+
+.rale-reg{
+    font-family: var(--mainfont);
+    font-weight: 400;
+}
+
+.rale-semi{
+    font-family: var(--mainfont);
+    font-weight: 600;
+}
+
+.open-bold{
+    font-family: var(--subfont);
+    font-weight: 700;
+}
+
+.open-reg {
+    font-family: var(--subfont);
+    font-weight: 400;
+}
+
+.cardo-italic{
+    font-family: var(--portfont);
+    font-style: italic;
+    font-weight: 400;
+}
+
+.cta-btn{
+    display: inline-block;
+    background: var(--brandcol);
+    line-height: 46px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* =====================
+    typography css ends
+====================== */
+
+#banner-bg{
+    background: linear-gradient( to right,rgba(139, 7, 247, 0.63) 30%,rgba(28, 4, 245, 0.637) 100%), url('../images/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 750px; */
+    /* position: relative;
+    z-index: 1; */
+}
+
+/* #banner-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--bannovercol);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
+
+#banner-bg .banner-text{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-bg .banner-text h1{
+    font-size: 65px;
+    line-height: 71px;
+    padding: 0 50px;
+}
+
+#banner-bg .banner-text p{
+    font-size: 22px;
+    line-height: 33px;
+    padding: 0 109px;
+
+}
+
+/* ==========================
+    banner css end
+=========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    box-sizing: border-box;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+} */
+/* =======================
+normal way to center content
+======================== */
+/* .box-1{
+    border: 5px solid #f80505;
+    position: relative;
+}
+
+
+.box-1 .child-1{
+    background: #4ae2ec;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+} */
+
+/* =======================
+use flex to center content
+======================== */
+
+/* .box-2{
+    border: 5px solid #05e8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2 .child-2{
+    background: #943ce7;
+} */
+/* =================
+flex intro css ends
+================= */
